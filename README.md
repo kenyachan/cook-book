@@ -10,4 +10,5 @@ Once complete, I will have demonstrated the use of the following:
 - Heading tags
 - Lists
 - Links (anchors)
-
+- External CSS style sheet
+- Class attribute
