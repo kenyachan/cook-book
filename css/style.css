@@ -14,7 +14,6 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
     min-height: 100vh;
 }
 
@@ -26,17 +25,28 @@ main {
     flex: 1 1 auto;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: .8rem;
+    padding: 1rem 4rem;
+}
+
+footer a .fa-github {
+    font-size: 1.5rem;
+}
+
+footer a {
+    color: #e5e7eb;
+}
+
 .site-title {
     color: rgb(250, 130, 70);
     font-weight: bold;
     font-size: 1.5rem;
-}
-
-.place-holder {
-    border: 1px solid slategray;
-    height: 3rem;
-    width: 3rem;
-    margin: 1rem;
 }
 
 .site-logo {
