@@ -57,7 +57,34 @@ footer a {
 
 .main-image {
     height: auto;
-    width: 300px;
+    max-width: 300px;
+    width: 75vw;
+}
+
+.tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.tile {
+    width: 75vw;
+    max-width: 150px;
+    margin: 1rem;
+}
+
+.tile a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tile a img {
+    border-radius: 10px;
+    height: auto;
+    max-width: 150px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -92,7 +119,7 @@ footer a {
 
 @media only screen and (min-width: 768px) {
     header {
-        max-width: 1200px;
+        /* max-width: 1200px; */
         display: flex;
         justify-content: flex-start;
         padding: 1rem 0;
